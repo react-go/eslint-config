@@ -1,0 +1,29 @@
+{
+  "name": "@react-go/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint configuration used by React Go",
+  "main": "index.js",
+  "author": "pengtikui <949828390@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-go/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/react-go/eslint-config/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "peerDependencies": {
+    "babel-eslint": "10.x",
+    "eslint": "6.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jsx-a11y": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "1.x"
+  }
+}
